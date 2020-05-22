@@ -8,16 +8,41 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .main-logo {
   width: 45vw;
+  margin-top: 6vh;
+  margin-left: 27vw;
+}
+
+.main-navigation-ul {
+  display: flex;
+  margin-left: 27vw;
+}
+
+.main-navigation-ul li {
+  list-style-type: none;
+  padding: 3vw;
+}
+
+.main-navigation-ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  color: #000;
+}
+
+.main-navigation-ul a:hover {
+  color: #f2a68d;
 }
 
 .my-fabulous-hero {
   width: 100%;
-  height: 70vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  height: 73vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
     url("./images/My\ Fabulous\ Event_Hero\ Image.jpg");
   background-size: cover;
   background-position: center center;
@@ -27,8 +52,29 @@ body {
   margin-top: 1.67vh;
 }
 
+.hero-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem;
+  color: #f3dcd4;
+  padding-top: 20vh;
+}
+
+.hero-button {
+  background-color: #f2a68d;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  padding: 1.5vw;
+}
+
+.hero-button:hover {
+  color: #000;
+}
+
 .contact {
-  background-color: #F3DCD4;
+  background-color: #f3dcd4;
 }
 
 /* Gallery Slideshow */
@@ -64,4 +110,16 @@ body {
   position: absolute;
   left: 0;
   transition: all 1s ease;
+}
+
+/* Footer */
+.footer {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
