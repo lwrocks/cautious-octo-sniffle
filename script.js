@@ -1,3 +1,4 @@
+// Setup Carousel Functions
 const carousel = document.querySelector("[data-target='carousel']");
 const card = document.querySelector("[data-target='card']");
 const leftButton = document.querySelector("[data-action='slideLeft']");

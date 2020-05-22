@@ -27,6 +27,10 @@ body {
   margin-top: 1.67vh;
 }
 
+.contact {
+  background-color: #F3DCD4;
+}
+
 /* Gallery Slideshow */
 .gallery-img {
   height: 500px;
