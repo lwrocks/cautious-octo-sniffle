@@ -7,6 +7,7 @@
 body {
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
+  text-align: center;
   overflow-x: hidden;
   margin: 0;
   padding: 0;
@@ -79,8 +80,14 @@ h2 {
   color: #000;
 }
 
+/* Contact Section */
 .contact {
   background-color: #f3dcd4;
+  padding: 4vw;
+}
+
+.my-fabulous-form {
+  display: flex;
 }
 
 /* Gallery Slideshow */
