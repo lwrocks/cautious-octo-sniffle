@@ -39,6 +39,12 @@ body {
   color: #f2a68d;
 }
 
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25rem;
+  text-align: center;
+}
+
 .my-fabulous-hero {
   width: 100%;
   height: 73vh;
