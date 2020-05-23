@@ -16,7 +16,6 @@ body {
 .main-logo {
   width: 45vw;
   margin-top: 6vh;
-  margin-left: 27vw;
 }
 
 .main-navigation-ul {
@@ -83,7 +82,15 @@ h2 {
 /* Contact Section */
 .contact {
   background-color: #f3dcd4;
-  padding: 4vw;
+  padding: 6vw;
+}
+
+.contact-container {
+  margin-top: -7vh;
+}
+
+.contact-container h2 {
+  color: #f2a68d;
 }
 
 .my-fabulous-form {
@@ -126,41 +133,4 @@ h2 {
 }
 
 /* Footer */
-.footer {
-  height: 30vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: space-between;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
-}
 
-.footer p {
-  margin-left: 2vw;
-}
-
-.social-icons {
-  margin-left: 5vw;
-}
-
-.footer-links {
-  list-style-type: none;
-  display: flex;
-  margin-left: -4vw;
-}
-
-.footer-links li {
-  padding: 1.5vw;
-}
-
-.footer-links a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #000;
-}
-
-.footer-links a:hover {
-  color: #f2a68d;
-}
