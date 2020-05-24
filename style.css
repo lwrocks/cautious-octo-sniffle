@@ -93,6 +93,70 @@ h2 {
   color: #cb8571;
 }
 
+.name-input,
+.email-input,
+.date-input,
+.message-input {
+  display: contents;
+  margin-top: 1vh;
+}
+
+.contact-form {
+  display: inline-grid;
+}
+
+.name-input input,
+.email-input input {
+  width: 30vw;
+  border: 1px solid #cb8571;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 1vh;
+}
+
+.name-input label {
+  text-align: left;
+}
+
+.email-input label,
+.date-input label,
+.message-input label {
+  text-align: left;
+  padding-top: 2vh;
+}
+
+.date-input input {
+  width: 10vw;
+  border: 1px solid #cb8571;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 1vh;
+}
+
+.message-input textarea {
+  border: 1px solid #cb8571;
+  border-radius: 4px;
+  margin-top: 1vh;
+}
+
+#submit {
+  background-color: #cb8571;
+  border: none;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.063rem;
+  width: 7vw;
+  padding: 1vw;
+  margin-top: 3vh;
+  margin-left: 12vw;
+}
+
+#submit:hover {
+  color: #000;
+}
+
 /* About */
 .about {
   padding: 6vw;
