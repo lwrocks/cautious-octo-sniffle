@@ -93,11 +93,35 @@ h2 {
   color: #CB8571;
 }
 
+.contact-form label {
+  font-weight: bold;
+}
+
 .my-fabulous-form {
   display: flex;
 }
 
+/* About */
+.about {
+  padding: 6vw;
+}
+
+.about h2 {
+  color: #CB8571;
+  margin-top: -1vh;
+}
+
 /* Gallery Slideshow */
+.gallery-container {
+  background-color: #f2a68d;
+  padding: 7vw;
+}
+
+.gallery-container h2 {
+  color: #FFF;
+  margin-top: -4vh;
+}
+
 .gallery-img {
   height: 500px;
   width: 476px;
