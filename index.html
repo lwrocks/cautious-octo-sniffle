@@ -114,8 +114,8 @@
           </li>
         </ul>
         <div class="button-wrapper">
-          <button data-action="slideLeft" class="gallery-button"><</button>
-          <button data-action="slideRight" class="gallery-button">></button>
+          <button data-action="slideLeft" class="gallery-button-left"><i class="arrow left"></i></button>
+          <button data-action="slideRight" class="gallery-button-right"><i class="arrow right"></i></button>
         </div>
       </div>
     </section>
@@ -130,23 +130,11 @@
           <form action="#" method="POST" class="contact-form">
             <div class="name-input">
               <label for="name">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Name"
-                required
-              />
+              <input type="text" id="name" name="name" required />
             </div>
             <div class="email-input">
               <label for="email">Email Address</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Email Address"
-                required
-              />
+              <input type="email" id="email" name="email" required />
             </div>
             <div class="date-input">
               <label for="date">Date of Your Event</label>
@@ -159,7 +147,6 @@
                 id="message"
                 cols="50"
                 rows="5"
-                placeholder="Enter info about your event here"
               ></textarea>
             </div>
             <input type="submit" id="submit" name="submit" />
