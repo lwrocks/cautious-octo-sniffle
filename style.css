@@ -273,3 +273,24 @@ h2 {
 .footer-links a:hover {
   color: #f2a68d;
 }
+
+/* Back to Top Button */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 3.34vh;
+  right: 2.34vw;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #cb8571;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 1.25rem;
+}
+
+#myBtn:hover {
+  background-color: #f2a68d;
+}
