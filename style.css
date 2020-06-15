@@ -4,6 +4,10 @@
 /* Import Raleway */
 @import url(https://fonts.googleapis.com/css2?family=Raleway&display=swap);
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
@@ -205,6 +209,7 @@ h2 {
 .gallery-button-right {
   background-color: #f3dcd4;
   border-radius: 50%;
+  border: none;
   width: 5vw;
   height: 10vh;
   font-size: 1.125rem;

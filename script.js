@@ -11,12 +11,7 @@ const cardMarginRight = Number(cardStyle.marginRight.match(/\d+/g)[0]);
 const cardCount = carousel.querySelectorAll("[data-target='card']").length;
 
 let offset = 0;
-const maxX = -(
-  (cardCount / 3) * carouselWidth +
-  cardMarginRight * (cardCount / 3) -
-  carouselWidth -
-  cardMarginRight
-);
+const maxX = -((cardCount / 3) * carouselWidth + cardMarginRight * (cardCount / 3) - carouselWidth - cardMarginRight);
 
 // Click Events
 leftButton.addEventListener("click", function () {
@@ -32,3 +27,26 @@ rightButton.addEventListener("click", function () {
     carousel.style.transform = `translateX(${offset}px)`;
   }
 });
+
+// Smooth Scrolling
+$(document).ready(function () {
+  $("a").on("click", function (event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+
+      $("html, body").animate(
+        {
+          scrollTop: $(hash).offset().top,
+        },
+        800,
+        function () {
+          window.location.hash = hash;
+        }
+      );
+    }
+  });
+});
+
+// Back to Top Button
+
