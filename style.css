@@ -207,31 +207,15 @@ h2 {
 
 .gallery-button-left,
 .gallery-button-right {
-  background-color: #f3dcd4;
+  background-color: #A4533D;
+  color: white;
   border-radius: 50%;
   border: none;
-  width: 5vw;
-  height: 10vh;
-  font-size: 1.125rem;
+  width: 60px;
+  height: 60px;
+  font-size: 1.25rem;
   text-align: center;
   margin-top: 36vh;
-}
-
-.arrow {
-  border: solid #000;
-  border-width: 0 4px 4px 0;
-  display: inline-block;
-  padding: 4px;
-}
-
-.right {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-
-.left {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
 }
 
 .carousel {
@@ -284,7 +268,7 @@ h2 {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #cb8571;
+  background-color: #A4533D;
   color: white;
   cursor: pointer;
   padding: 15px;
