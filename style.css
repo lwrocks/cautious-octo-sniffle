@@ -280,6 +280,7 @@ h2 {
   position: fixed;
   bottom: 3.34vh;
   right: 2.34vw;
+  width: 55px;
   z-index: 99;
   border: none;
   outline: none;
@@ -293,4 +294,18 @@ h2 {
 
 #myBtn:hover {
   background-color: #f2a68d;
+}
+
+/* Mobile Styling */
+@media screen and (max-width: 800px) {
+  .main-navigation-ul {
+    margin-left: 20vw;
+  }
+  .hero-heading {
+    font-size: 3rem;
+  }
+  #submit {
+    width: 15vw;
+    margin-left: 19vw;
+  }
 }
